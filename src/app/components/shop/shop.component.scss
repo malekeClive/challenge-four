@@ -1,0 +1,61 @@
+.title-wrapper {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+
+  h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px 0;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #fff;
+    box-shadow: .5px .5px 5px rgba(38, 39, 41, .5);
+  }
+}
+
+.cart {
+  width: 80%;
+  margin: 0 auto;
+
+  button {
+    border: 1.5px solid transparent;
+    background-color: #c7ecee;
+
+    &:hover {
+      background-color: transparent;
+      border: 1.5px solid #c7ecee;
+    }
+  }
+
+  h3 {
+    margin-bottom: 10px;
+  }
+
+  .line {
+    width: 100%;
+    height: 1px;
+    margin: 10px 0;
+    background-color: rgba(28, 28, 28, .2);
+  }
+
+  .total-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

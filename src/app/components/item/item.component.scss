@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .img-wrapper {
+    margin: 20px 0;
+    text-align: center;
+
+    img {
+      width: 200px;
+      height: 100px;
+      object-fit: contain;
+    }
+  }
+
+}
+
+.add-to-cart {
+  font-weight: 500;
+}
+
+.added-to-cart {
+  font-weight: bold;
+  background-color: rgba(199, 236, 238, .3);
+}
+
